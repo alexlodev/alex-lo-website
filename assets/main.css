@@ -876,8 +876,24 @@ a:hover {
     text-decoration: none;
     color: #ff3535;
 }
+.clinicaSolOesteImg {
+    background-image: url(/img/soloeste.png);
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    transition: 2s ease-in-out;
+    margin: 0 auto;
+    box-shadow: 0px 0px 40px #b9b9b9;
+    -moz-box-shadow: 0px 0px 40px #b9b9b9;
+    -webkit-box-shadow: 0px 0px 40px #b9b9b9;
+    border-collapse:separate !important;
+    
+}
+.clinicaSolOesteImg:hover {
+    background-position: bottom;
+}
 .clinicaImg {
-    background-image: url(/img/clinic.png);
+    background-image: url(/img/victorclinic.png);
     background-position: top;
     background-size: cover;
     height: 300px;
@@ -936,18 +952,7 @@ a:hover {
     margin: 0 auto;
     box-shadow: 0px 0px 40px #b9b9b9;
 }
-.phpImg {
-    background-image: url(/img/gdl.png);
-    background-position: top;
-    background-size: cover;
-    height: 300px;
-    transition: 2s ease-in-out;
-    margin: 0 auto;
-    box-shadow: 0px 0px 40px #b9b9b9;
-}
-.phpImg:hover {
-    background-position: bottom;
-}
+
 .reactProyect {
     background-image: url(/img/platzivideo.png);
     background-position: center;
